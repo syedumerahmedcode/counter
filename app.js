@@ -20,6 +20,10 @@ btns.forEach(function (btn) {
     // console.log(styles);
     if (styles.contains("decrease")) {
       count--;
+    } else if (styles.contains("increase")) {
+      count++;
+    } else {
+      count = 0;
     }
     value.textContent = count;
   });
