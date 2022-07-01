@@ -9,5 +9,14 @@ let count = 0;
 const value = document.querySelector("#value");
 const btns = document.querySelectorAll(".btn");
 
-console.log(value);
-console.log(btns);
+// console.log(value);
+// console.log(btns);
+
+// Instead of calling AddEventListener for each button one by one,
+// we will use forEach() method instead.
+btns.forEach(function (btn) {
+  btn.addEventListener("click", function (eventObject) {
+    const styles = eventObject.currentTarget.classList;
+    console.log(styles);
+  });
+});
