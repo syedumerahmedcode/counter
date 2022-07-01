@@ -17,6 +17,10 @@ const btns = document.querySelectorAll(".btn");
 btns.forEach(function (btn) {
   btn.addEventListener("click", function (eventObject) {
     const styles = eventObject.currentTarget.classList;
-    console.log(styles);
+    // console.log(styles);
+    if (styles.contains("decrease")) {
+      count--;
+    }
+    value.textContent = count;
   });
 });
