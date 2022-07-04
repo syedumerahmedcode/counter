@@ -56,7 +56,7 @@ The css file consists of various sections such as `Fonts` , `Variables`, `Global
 
 ## Prerequisities
 
-- To be written.
+Since this project is constructed using Visual Studio Code and Live Server, therefore, that is the recommended prerequisite for this project. Someone trying to run the project via other means are welcome to do so but then they would have to figure out the tech stack(IDE+Web Server) combination themselves.
 
 ## Commands
 
