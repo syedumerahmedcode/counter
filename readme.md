@@ -57,7 +57,9 @@ Feature requests, issues, pull requests and questions are welcome.
 
 ## References
 
-- To be written.
+- [1](https://www.udemy.com/course/javascript-tutorial-for-beginners-w/): Javascript Tutorial and Projects Course (2022)
+  Learn Javascript by Building 30+ Interesting Projects **(Primary resource)**
+- [2](https://github.com/john-smilga/javascript-basic-projects/tree/master/02-counter): Original source code of the project **(Primary Resource) (Github)**
 
 ## Contact Information
 
