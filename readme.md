@@ -25,7 +25,13 @@ Since this is an beginner project in which the focus is just to learn the some b
 
 ## Project structure
 
-- To be written.
+The project consists of 3 main files which are described below:
+
+- index.html
+- app.js
+- styles.css
+
+Additionally, a _setup_ folder is also created which contains the initial project in its basic form and it was used as basis for the finished project.
 
 ## index.html
 
