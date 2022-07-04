@@ -17,7 +17,9 @@
 
 ## Introduction
 
-- To be written.
+The project is called counter and via this project, the user can increase or decrease the counter when the user click a button. This program can be used to keep track of repeatable task which increases or decreases over time. Additionally, the user can also reset the counter when needed.
+
+The application is coded in Visual Studio Code and deployed using Live server extension. This project is the first one in a series of basic javascript project created for better understanding of the technology and how things work. The inspiration for this project is coming from this [Udemy](https://www.udemy.com/course/javascript-tutorial-for-beginners-w/) course.
 
 ## Out Of Scope
 
