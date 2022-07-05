@@ -37,7 +37,38 @@ Additionally, a _setup_ folder is also created which contains the initial projec
 
 ## index.html
 
-- To be written.
+The head of the HTML page contains the title _Counter_ and it also contains the reference to the stylesheet _styles.css_.
+
+```javascript
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Counter</title>
+
+  <!-- styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+```
+
+In the `<body>` section, the `<div>` contains three buttons, namely `decrease`, `reset` and `increase`.
+
+```javascript
+<body>
+  <main>
+    <div class="container">
+      <h1>Counter</h1>
+      <span id="value">0</span>
+    </div>
+    <div class="button-container">
+      <button class="btn decrease">decrease</button>
+      <button class="btn reset">reset</button>
+      <button class="btn increase">increase</button>
+    </div>
+  </main>
+  <!--javascript-->
+  <script src="app.js"></script>
+</body>
+```
 
 ## app.js
 
