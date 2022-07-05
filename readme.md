@@ -72,7 +72,45 @@ In the `<body>` section, the `<div>` contains three buttons, namely `decrease`, 
 
 ## app.js
 
-- To be written.
+First, we find out the `value` and `btns`.
+
+```javascript
+const value = document.querySelector("#value");
+const btns = document.querySelectorAll(".btn");
+```
+
+Instead of calling AddEventListener for each button one by one, we will use forEach() method instead. Here, based on the clas of the button clicked, we either _increase_, _decrease_ or _reset_ the counter. Once the counter is updated, we check if the counter is **greater** than ZERO, **less** than ZERO or **equal** to ZERO ,and based on the result, we change the color to **green**,**red** or **black** respectively.
+
+```javascript
+btns.forEach(function (btn) {
+  btn.addEventListener(click, function (eventObject) {
+    const blackColor = "#222";
+    const greenColor = "green";
+    const redColor = "red";
+    const styles = eventObject.currentTarget.classList;
+    const decrease = "decrease";
+    const increase = "increase";
+    // console.log(styles);
+    if (styles.contains(decrease)) {
+      count--;
+    } else if (styles.contains(increase)) {
+      count++;
+    } else {
+      count = ZERO;
+    }
+    if (count > ZERO) {
+      value.style.color = greenColor;
+    }
+    if (count < ZERO) {
+      value.style.color = redColor;
+    }
+    if (count === ZERO) {
+      value.style.color = blackColor;
+    }
+    value.textContent = count;
+  });
+});
+```
 
 ## styles.css
 
